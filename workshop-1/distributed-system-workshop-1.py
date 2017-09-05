@@ -67,9 +67,10 @@ def wrapperFunction():# This function wrap up all the functions
 			exit()
 			
 		for line in fopen:
-			numbers = re.findall(r'\d+', line)
-			print(numbers)
-			lines+=1
+			if(line):
+				numbers = re.findall(r'\d+', line.strip())
+				print(numbers)
+				lines+=1
 		for num in numbers:
 			print(int(num))
 			sum+=int(num)
