@@ -15,13 +15,12 @@ def wrapperFunction():# This function wrap up all the functions
 	#Also, put the numbers into an array instead of printing. 
 	#The function should take no input parameters and return an array.
 	#Call the function and print the output (i.e. print(my_function())) 
-
+	
 	def printZeroToTwenty():
 		numbers = []
 		for num in range(21):
 			numbers.append(num)
 		return numbers
-		
 	print(printZeroToTwenty())
 	#3. Reverse and return
 
@@ -48,8 +47,7 @@ def wrapperFunction():# This function wrap up all the functions
 		f = open('example','w')
 		for i in range(len(arr)):
 			f.write(str(arr[i]))
-		f.close()
-		
+		f.close()	
 	writeArrayValueIntoFile([10,20,30,40,50])
 
 	#5.Define a function that:
@@ -75,8 +73,6 @@ def wrapperFunction():# This function wrap up all the functions
 		for num in numbers:
 			print(int(num))
 			sum+=int(num)
-				
-			
 		return "The sum is " + str(sum)
 	print(openFileAndReadLineByLine())
 	#6.Write a main function (wrapping everything up)
@@ -85,7 +81,5 @@ def wrapperFunction():# This function wrap up all the functions
 	#Reverse the array
 	#Write the array into a file
 	#Read the file and calculate the sum
-
-
 wrapperFunction()
 
