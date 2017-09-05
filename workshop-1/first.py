@@ -4,7 +4,7 @@ import re #import Regular expression
 
 #1.Looping and printing
 #Write code that prints every integer between 0 and 20
-def wrapperFunction():
+def wrapperFunction():# This function wrap up all the functions
 	print("Workshop 1 exercises: Getting to know Python - part I")
 	print("Hello, Helsinki University")
 	for num in range(21):
