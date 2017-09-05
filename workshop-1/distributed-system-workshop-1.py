@@ -44,7 +44,7 @@ def wrapperFunction():# This function wrap up all the functions
 	#Closes the file
 
 	def writeArrayValueIntoFile(arr):
-		f = open('example','w')
+		f = open('text-example','w')
 		for i in range(len(arr)):
 			f.write(str(arr[i]))
 		f.close()	
